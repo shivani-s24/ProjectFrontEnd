@@ -1,0 +1,508 @@
+.footer{
+  background-color: black;
+  text-align: center;
+  color:white;
+}
+#logoimg{
+  border-radius: 50%;
+  size: 10%;
+  margin-right: 2%;
+}
+#title{
+  color:rgb(245, 204, 179);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, cursive;
+  font-style: italic;
+  text-align: center;
+  padding-top: 100px;
+  font-size: 35px;
+}
+#slogan{
+  font-size: 20px;
+  color: white;
+}
+#show_bg_2 {
+  background-image:
+  linear-gradient(to bottom, rgba(0, 2, 9, 0.52), rgba(7, 8, 40, 0.73)),
+  url('./cityscape1.png');
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+
+
+}
+#navbar{
+  background:black;
+  color: white;
+
+}
+#adminboard{
+  padding-left: 20px;
+  padding-right: 20px;
+  color:white;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+#adminboard:hover{
+  background-color: rgb(84, 84, 84);
+  color: black;
+  transition: 0.75s;
+}
+#homepage{
+  margin-left: 25%;
+  padding-left: 20px;
+  padding-right: 20px;
+  color:white;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+#contactus{
+  padding-left: 20px;
+  padding-right: 20px;
+  color:white;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+#aboutus{
+  padding-left: 20px;
+  padding-right: 20px;
+  color:white;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+#aboutus:hover{
+  background-color: rgb(84, 84, 84);
+  color: black;
+  transition: 0.75s;
+}
+#contactus:hover{
+  background-color: rgb(84, 84, 84);
+  color: black;
+  transition: 0.75s;
+}
+#homepage:hover{
+  background-color: rgb(84, 84, 84);
+  color: black;
+  transition: 0.75s;
+}
+#cusrow{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+/* .left, .right{
+  flex-basis: 45%;
+  padding: 10px;
+  margin-bottom: 20px;
+} */
+.right{
+  text-align: right;
+}
+#cusrowh1{
+  margin: 10px 0;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+#cus{
+  background: url(bg.png) no-repeat center;
+  background-size: cover;
+  padding: 40px 0;
+}
+#cus h2{
+  font-family: "montserrat", sans-serif;
+  text-align: center;
+  color: #ddd;
+  }
+.border{
+  width: 100px;
+  height: 10px;
+  background: #34495e;
+  margin: 4px auto;
+}
+#cusform{
+  max-width: 600px;
+  margin: auto;
+  padding: 0 10px;
+  overflow: hidden;
+}
+.contacttext{
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16px 0;
+  border: 0;
+  background: #111;
+  padding: 20px 40px;
+  outline: none;
+  color: white;
+  transition: 0.5s;
+}
+.contacttext:focus{
+  box-shadow: 0 0 10px 4px #34495e;
+}
+textarea.contacttext{
+  resize: none;
+  height: 120px;
+}
+.formbtn{
+  float: right;
+  border: 0;
+  background: #34495e;
+  color: white;
+  padding: 12px 50px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.formbtn:hover{
+  background: #2980b9;
+}
+.cancelform{
+  float: right;
+  border: 0;
+  background: #34495e;
+  padding: 12px 50px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.cancelformL{
+  color: white;
+  text-decoration: none;
+}
+.cancelform:hover{
+  background-color: #2980b9;
+}
+.contactviewtable{
+  border: 2px solid black;
+  width: 90%;
+  text-align: center;
+  margin-top: 10%;
+  margin-left: 25px;
+  background-color: #e1e2e4;
+}
+.contactviewtable td,th{
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+
+}
+
+.header{
+  background-color: #6e7378;
+}
+#tableline{
+  border: 1px solid black;
+}
+
+#lol{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, cursive;
+  margin-left: 2%;
+}
+#visionbg{
+  background-color: rgba(12, 23, 49, 0.934);
+  height: 100%;
+}
+#vnv{
+  margin-top: -35%;
+  margin-bottom: 2%;
+  margin-left: 9%;
+  margin-right:50%;
+  border: solid black 2px;
+  background-color: white;
+  height: 100%;
+  font-style: italic;
+}
+#visionbg:hover{
+  background-color: rgba(108, 108, 152, 0.39);
+  transition: 2s;
+  color: rgb(0, 0, 0);
+}
+#vnv:hover{
+  background-color: rgba(10, 10, 62, 0.836);
+  transition: 2s;
+  color: rgb(255, 255, 255);
+}
+#vnvhr{
+  width: 99%;
+  background-color: white;
+  color: white;
+  height: 2px;
+  margin-top: -2%;
+}
+#vnvimg{
+  margin-top: 3%;
+  margin-left: 55%;
+}
+#para{
+  margin-left: 3%;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, cursive;
+  font-style:normal;
+
+}
+#abtus{
+  margin-left: 2%;
+}
+.propbox{
+  width:80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: auto;
+}
+#prop1{
+  flex-basis:48%;
+  text-align: center;
+  border-radius: 7px;
+  margin-bottom: 20px;
+  color:white;
+  position: relative;
+}
+#prop1 img{
+  width:100%;
+  height: 100%;
+  border-radius: 10px;
+
+}
+#overlay{
+ width: 100%;
+ height: 100%;
+ position:absolute;
+ top:0;
+ border-radius: 10px;
+ cursor: pointer;
+ background: linear-gradient(rgba(0,0,0,0.5),#2f3556f3);
+ opacity: 0;
+ transition: 0.5s;
+}
+#prop1:hover #overlay{
+  opacity: 1;
+}
+.propdesc{
+  width: 80%;
+  margin-top: -10%;
+  position: absolute;
+  top: 25%;
+  bottom: 0;
+  left:50%;
+  opacity: 0;
+  transform: translate(-50%);
+  transition: 1s;
+}
+.propdesc p{
+  font-size: 13px;
+  font-family: sans-serif;
+}
+#prop1:hover .propdesc{
+   bottom: 40%;
+   opacity: 1;
+}
+#testimonial{
+  width: 100%;
+  padding: 70px 0;
+
+}
+.testimonialrow{
+  width:80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items:flex-end;
+  flex-wrap: wrap;
+
+}
+#tt{
+  margin-left: 30px;
+}
+.testimonialcol{
+  flex-basis: fit-content;
+  padding: 10px;
+  margin-bottom: 30px;
+  border-radius: 7px;
+  box-shadow: 0 10px 10px 3px rgb(149, 141, 141);
+  cursor: pointer;
+}
+.testimonialcol p{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: italic;
+  font-size: 14px;
+}
+.user{
+  display:flex;
+  align-items: center;
+  margin: 20px 0;
+}
+.user img{
+  width: 50px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+.testimonialcol:hover{
+  transform: translateY(-7px);
+}
+.title-text{
+  margin: auto;
+  font-size: 24px;
+  color:#1e3755f3;
+  font-weight: bold;
+  position: relative;
+  display: inline-block;
+}
+.title-text::after{
+  content: '';
+  width: 50px;
+  height: 35px;
+  background: linear-gradient(#1e3755f3,#fff);
+  position: absolute;
+  top:-20px;
+  left: 0;
+  z-index: -1;
+  transform: rotate(10deg);
+  border-top-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+}
+#loginbtn{
+
+    float:inline-end;
+    border: 0;
+    background: #31603c;
+    color: white;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  #loginbtn:hover{
+    background: #3fa54f;
+  } 
+  .firstpage{
+  background: url(bg.png);
+  background-size:cover;
+  height: 100%;
+  padding: 40px 0;
+  }
+  .firstpageclr{
+    background-color: rgb(28, 27, 27);
+  }
+#loginpage1{
+  
+  margin-top: 15%;
+  margin-left: 30%;
+  margin-right: 30%;
+  width: auto;
+}
+.loginhd{
+  color: rgb(164, 161, 161);
+}
+.firstpage nav{
+  background: black;
+  color: white;
+  text-align: center;
+}
+#profilebtn{
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+  color: white;
+  font-size: x-large;
+  margin-left:5px;
+}
+#profilebtn:hover{
+  background-color: rgb(84, 84, 84);
+  color: black;
+  transition: 0.75s;
+}
+#fpbtn{
+  text-decoration: none;
+  color: white;
+  font-size: x-large;
+}
+#fpbtn:hover{
+  background-color: #6e7378;
+  color: #111;
+  transition: 0.5s;
+  font-size: large;
+}
+#fpbtn1{
+  text-decoration: none;
+  margin-left: 40%;
+  text-align: center;
+  color: white;
+  font-size: x-large;
+}
+#fpbtn1:hover{
+  background-color: #6e7378;
+  color: #111;
+  transition: 0.5s;
+  font-size: large;
+}
+#fpbtn2{
+  text-decoration: none;
+  margin-left: 5%;
+  color: white;
+  font-size: x-large;
+}
+#fpbtn2:hover{
+  background-color: #6e7378;
+  color: #111;
+  transition: 0.5s;
+  font-size: large;
+}
+#fpbtn3{
+  text-decoration: none;
+  margin-left: 20%;
+  color: white;
+  font-size: x-large;
+}
+#fpbtn3:hover{
+  background-color: #6e7378;
+  color: #111;
+  transition: 0.5s;
+  font-size: large;
+}
+
+.userdet{
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16px 0;
+  border: 0;
+  background: #111;
+  padding: 20px 40px;
+  outline: none;
+  color: white;
+  transition: 0.5s;
+}
+
+.profilebg{
+  background: url(profile.png);
+  background-size:cover;
+  margin: 5px 5px 5px 5px ;
+  height: 100%;
+  padding: 40px 0;
+}
+.Profilebox{
+  background-color: rgb(9, 10, 41);
+  width: 40%;
+  color: white;
+  margin-top: 10%;
+  margin-bottom: 20%;
+  margin-left: 10%;
+  margin-right: 30%;
+  border: 2px solid rgb(160, 162, 216);
+  box-shadow: 0 5px 5px 1px rgb(149, 141, 141);
+}
+.Profilebox:hover{
+  background-color:rgb(203, 216, 219);
+  color: black;
+  transition: 1s;
+  transform: translateY(10px);
+}
